@@ -1,0 +1,34 @@
+
+.nav-wrapper {
+    padding-left: 8px;
+    text-shadow: 1px 1px 1px #a3a3a3;
+    /* display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+}
+.nav-wrapper ul li {
+    font-size: 24px !important;
+}
+.listItem{
+    font-size: 18px !important;
+}
+.btn {
+    text-shadow: 1px 1px 1px #a3a3a3;
+    
+}
+/* .inputMain {
+    margin-bottom: 40px !important ;
+} */
+nav {
+    margin-bottom: 60px;
+}
+.textTitle {
+    color: #616161;
+}
+.taskItem {
+    i
+}
+/* nav {
+    background-color: #b3e5fc 
+} */

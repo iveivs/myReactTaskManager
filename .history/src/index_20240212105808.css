@@ -1,0 +1,10 @@
+/* .inputMain {
+    border-bottom: 1px solid #000 !important;
+} */
+
+.nav-wrapper {
+    padding-left: 8px;
+}
+.btn {
+    text-shadow: 0.5px 0.5px 0.5px black;
+}

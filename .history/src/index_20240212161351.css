@@ -1,0 +1,17 @@
+/* .inputMain {
+    border-bottom: 1px solid #000 !important;
+} */
+* {
+
+}
+
+.nav-wrapper {
+    padding-left: 8px;
+}
+.btn {
+    text-shadow: 1px 1px 1px #a3a3a3;
+}
+
+nav {
+    background-color: #b3e5fc 
+}

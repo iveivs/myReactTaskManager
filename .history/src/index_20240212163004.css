@@ -1,0 +1,16 @@
+
+.nav-wrapper {
+    padding-left: 8px;
+    text-shadow: 1px 1px 1px #a3a3a3;
+}
+.nav-wrapper 
+.listItem{
+    font-size: 18px !important;
+}
+.btn {
+    text-shadow: 1px 1px 1px #a3a3a3;
+}
+
+/* nav {
+    background-color: #b3e5fc 
+} */

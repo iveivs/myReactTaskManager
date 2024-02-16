@@ -1,0 +1,26 @@
+import { useEffect } from "react"
+import { DataContext } from "./DataContext"
+import { useContext } from "react"
+
+export default function MainPage () {
+    const { tasks } = useContext(DataContext)
+    // console.log(tasks);
+    const changeStatus = (e) => {
+        
+        const isClicked = e.target.classList.contains('orange600')
+        console.log("click");
+    }
+    return (
+        <div>
+            <h4 className="textTitle">MainPage</h4>
+            { tasks && (
+                tasks.map(task => (
+                    <div key={task.id } className="taskItem">
+                        <p >task: {task.task}</p>
+                        <i onClick={(e) => {changeStatus(e)}} className="material-icons iconDone">done</i>
+                    </div>
+                ))
+            )}
+        </div>
+    )
+}
